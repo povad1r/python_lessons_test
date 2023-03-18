@@ -32,10 +32,11 @@
 
 def function(str):
     reverse = ''
-    for i in range(len(str)-1, 0, -1):
+    for i in range(len(str)-1, -1, -1):
         reverse += str[i]
     return reverse
-print(function('abvcfjk'))
+str = input('Enter your word: ')
+print(function(str))
 
 
 
