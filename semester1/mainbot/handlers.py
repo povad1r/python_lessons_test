@@ -1,16 +1,18 @@
 import logging
 from aiogram import Bot, Dispatcher, executor, types
 from func import get_content, source
-from config import TOKEN
 from keyboards import game_choice
 from aiogram.dispatcher import FSMContext
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
+import os 
+from dotenv import load_dotenv
 
+load_dotenv()
 
+TOKEN = os.getenv('TOKEN')
 logging.basicConfig(level=logging.INFO)
 
 bot = Bot(token=TOKEN)
-
 dp = Dispatcher(bot)
 
 @dp.message_handler(commands='start')
@@ -20,7 +22,7 @@ async def start(message: types.Message):
 
 @dp.message_handler(commands='matches')
 async def matches(message: types.Message):
-    content = get_content(source)
+    content = get_content()
     for match in content:
         response = (f"Tournament: {match['tournament']}\nMatch time: {match['time']}\n{match['team_1']} - {match['team_2']}")
         await message.answer((response))

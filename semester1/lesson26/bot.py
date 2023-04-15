@@ -7,9 +7,12 @@ from films import films
 from aiogram.dispatcher import FSMContext
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+import os 
+from dotenv import load_dotenv
 
-TOKEN = '6039538247:AAGaX1Tmudm5yMfrj8OYvl5VsQjaEgPrWe0'
+TOKEN = os.getenv('TOKEN')
 logging.basicConfig(level=logging.INFO)
+
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot, storage=MemoryStorage())
