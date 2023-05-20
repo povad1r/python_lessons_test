@@ -169,3 +169,6 @@ poetry.toml
 
 # LSP config files
 pyrightconfig.json
+
+vosk-model-en-us-0.22-lgraph/
+vosk-model-uk-v3-lgraph/
