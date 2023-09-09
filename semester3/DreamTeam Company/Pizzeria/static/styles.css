@@ -1,0 +1,44 @@
+    body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            color: #1F3B99;
+        }
+
+        img {
+            max-width: 80vw; /* Максимальная ширина изображения - 80% ширины экрана */
+            max-height: 60vh; /* Максимальная высота изображения - 60% высоты экрана */
+            width: auto;
+            height: auto;
+        }
+
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 80%;
+        }
+
+        table, th, td {
+            border: 1px solid #333;
+        }
+
+        th, td {
+            padding: 10px;
+        }
+
+        a {
+            display: block;
+            margin-top: 20px;
+            text-decoration: none;
+            background-color: #E6795C;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        a:hover {
+            background-color: #649926;
+        }
+
