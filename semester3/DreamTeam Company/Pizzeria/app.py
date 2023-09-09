@@ -6,7 +6,7 @@ app = Flask(__name__, template_folder='templates', static_folder='static')
 def index():
     return render_template('index.html')
 
-@app.route('/menu')
+@app.route('/menu/')
 def menu_page():
     return render_template('menu.html')
 

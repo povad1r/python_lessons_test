@@ -1,4 +1,4 @@
-    body {
+        body {
             font-family: Arial, sans-serif;
             text-align: center;
         }
@@ -7,11 +7,33 @@
             color: #1F3B99;
         }
 
+        .content-container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+        }
         img {
-            max-width: 80vw; /* Максимальная ширина изображения - 80% ширины экрана */
-            max-height: 60vh; /* Максимальная высота изображения - 60% высоты экрана */
-            width: auto;
-            height: auto;
+            max-width: 50%;
+            height: 750px;
+            margin-right: 50px;
+        }
+
+        p.index {
+            font-family: 'Roboto Slab', serif;
+            max-width: 60%;
+            text-align: center;
+            margin-left: 10px;
+            font-size: 36px;
+        }
+        p.menu {
+            font-family: 'Roboto Slab', serif;
+            font-weight: 500;
+            max-width: 100%;
+            text-align: center;
+            font-size: 24px;
+            margin: 20px;
         }
 
         table {
@@ -30,12 +52,12 @@
 
         a {
             display: block;
-            margin-top: 20px;
             text-decoration: none;
             background-color: #E6795C;
             color: white;
             padding: 10px 20px;
             border-radius: 5px;
+            margin: 20px;
         }
 
         a:hover {

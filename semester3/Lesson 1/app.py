@@ -18,7 +18,6 @@ def hello_world2():
     list = ['Сьогодні у вас буде гарний день', 'Вас чекає гарна звістка', 'Вас чекають неприємності']
     return r.choice(list)
 
-
 @app.route("/login/")
 def send_login():
     return send_file("templates/login.html")

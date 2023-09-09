@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f3f9bbd-324e-447d-8754-396192836d17" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/semester3/DreamTeam Company/Pizzeria/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semester3/DreamTeam Company/Pizzeria/static/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semester3/DreamTeam Company/Pizzeria/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semester3/DreamTeam Company/Pizzeria/templates/menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semester3/Lesson 1/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semester3/Lesson 1/app2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semester3/Lesson 1/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semester3/Lesson 1/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semester3/Lesson 1/templates/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/aa86ad39-c288-4e76-82da-cea9cd505509.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/aa86ad39-c288-4e76-82da-cea9cd505509.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/semester2/mentor/tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/semester2/mentor/tasks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semester3/DreamTeam Company/Pizzeria/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/semester3/DreamTeam Company/Pizzeria/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semester3/DreamTeam Company/Pizzeria/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/semester3/DreamTeam Company/Pizzeria/static/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semester3/DreamTeam Company/Pizzeria/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/semester3/DreamTeam Company/Pizzeria/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semester3/DreamTeam Company/Pizzeria/templates/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/semester3/DreamTeam Company/Pizzeria/templates/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semester3/Lesson 1/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/semester3/Lesson 1/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semester3/OOP/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/semester3/OOP/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -100,7 +95,8 @@
       <workItem from="1693638433742" duration="4535000" />
       <workItem from="1693725225690" duration="4822000" />
       <workItem from="1694201763644" duration="3066000" />
-      <workItem from="1694241486022" duration="2341000" />
+      <workItem from="1694241486022" duration="7923000" />
+      <workItem from="1694290003724" duration="1923000" />
     </task>
     <servers />
   </component>
@@ -122,7 +118,7 @@
     <SUITE FILE_PATH="coverage/GoITeens$bot.coverage" NAME="bot Coverage Results" MODIFIED="1692433752783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/semester2/test_bot" />
     <SUITE FILE_PATH="coverage/GoITeens$handlers.coverage" NAME="handlers Coverage Results" MODIFIED="1688198148408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/semester2/lesson17" />
     <SUITE FILE_PATH="coverage/GoITeens$lesson16.coverage" NAME="lesson16 Coverage Results" MODIFIED="1687679221836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/semester2/lesson16" />
-    <SUITE FILE_PATH="coverage/GoITeens$app.coverage" NAME="app Coverage Results" MODIFIED="1694203897078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/semester3/DreamTeam Company/Pizzeria" />
-    <SUITE FILE_PATH="coverage/GoITeens$main.coverage" NAME="main Coverage Results" MODIFIED="1689494282324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/semester2/SQL" />
+    <SUITE FILE_PATH="coverage/GoITeens$app.coverage" NAME="app Coverage Results" MODIFIED="1694291814681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/semester3/DreamTeam Company/Pizzeria" />
+    <SUITE FILE_PATH="coverage/GoITeens$main.coverage" NAME="main Coverage Results" MODIFIED="1694246679588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/semester3/OOP" />
   </component>
 </project>
