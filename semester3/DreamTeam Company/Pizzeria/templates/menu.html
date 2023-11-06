@@ -2,38 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Меню</title>
+    <title>{{Oderman}}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-    <h1>Меню</h1>
-    <p class='menu'>"Oderman" славиться своєю авторською кухнею та неперевершеними смаками піц. Шеф-кухар ресторану, Джуліано Одерман, вивчав мистецтво приготування піц в Італії та Іспанії і тепер пропонує унікальні рецепти, які не залишать байдужими жодного гурмана.</p>
-    <table>
-        <thead>
-            <tr>
-                <th>Назва</th>
-                <th>Опис інгредієнтів</th>
-                <th>Ціна</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Піца Маргарита</td>
-                <td>Сир, Помідори, Томатний соус</td>
-                <td>150 грн</td>
-            </tr>
-            <tr>
-                <td>Гавайська Піца</td>
-                <td>Сир, Ананаси, Шинка</td>
-                <td>200 грн</td>
-            </tr>
-            <tr>
-                <td>Фірмова Піца Oderman</td>
-                <td>Моцарела, Ветчина і Солодкий перець. </td>
-                <td>250 грн</td>
-            </tr>
-        </tbody>
-    </table>
+{% for pizza in dishes|sort(attribute='price') %}
+    <li>
+        <b>{{pizza.pizza}}:</b> {{pizza.price}}
+    </li>
+    {% endfor %}
     <a href="{{ url_for('index') }}">НАЗАД</a>
 </body>
 </html>

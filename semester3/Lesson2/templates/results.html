@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{Title}}</title>
+</head>
+<body>
+{%extends 'base.html'%}
+{% import "macros.html" as macros %}
+{%block title%}
+{{title}}
+{%endblock title%}
+{%block content%}
+<h1>{{test_name}} {{title}}</h1>
+<ul>
+    {%for student in students |sort(attribute="score")%}
+    <li>
+
+        {% if student.score > 80 %} "good!" {% else %} "bad" {% endif %}
+        {{ macros.add_badge(student, students) }}
+
+        <b>{{student.name}}: </b> {{student.score}} / {{max_score}}
+    </li>
+    {% endfor %}
+
+</ul>
+{% endblock content %}
+</body>
+</html>

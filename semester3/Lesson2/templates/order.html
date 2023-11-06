@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{Title}}</title>
+</head>
+<body>
+{%block content%}
+<h1>{{test_name}} {{title}}</h1>
+<ul>
+    {% for post in posts %}
+    <li>
+        {% if post.status == 'В обробці' %} <b>'Ваше замовлення обробляється'</b> {% else %} <em>'Замовлення відправлено'</em> {%endif%}
+    </li>
+    {% endfor %}
+</ul>
+{% endblock content %}
+</body>
+</html>

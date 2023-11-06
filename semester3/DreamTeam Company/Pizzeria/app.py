@@ -8,11 +8,17 @@ def index():
 
 @app.route('/menu/')
 def menu_page():
-    return render_template('menu.html')
+    context = {
+        "title": "Menu",
+        "dishes": dishes
+    }
+    return render_template('menu.html', **context)
 
 
-
-
-
+dishes = [
+    {'pizza': 'Маргарита', 'price': 150},
+    {'pizza': 'Гавайська', 'price': 200},
+    {'pizza': 'Oderman', 'price': 250}
+]
 
 app.run(host='0.0.0.0', debug=True)
